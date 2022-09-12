@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const Header = (props) => {
   return (
     <div>
-      <h1>hello from Header {props.number}</h1>
+      <h1 style={styless}>hello from Header {props.number}</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+const styless = {
+  color: "blue",
+  backgroundColor: " yellow ",
+};
+export default Header;
